@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/loopstudios/static/js/main.18f1ca77.js",
+    "main.js": "/loopstudios/static/js/main.b00bcee5.js",
     "static/media/image-hero.jpg": "/loopstudios/static/media/image-hero.9b5aacead42e955824d3.jpg",
     "static/media/image-from-above.jpg": "/loopstudios/static/media/image-from-above.f316f3f3afc353415f71.jpg",
     "static/media/image-curiosity.jpg": "/loopstudios/static/media/image-curiosity.7f14665a1469d012697f.jpg",
@@ -16,9 +16,9 @@
     "static/media/logo-twitter.svg": "/loopstudios/static/media/logo-twitter.0b04117cb482dfccdae5af83f592f8d3.svg",
     "static/media/logo-instagram.svg": "/loopstudios/static/media/logo-instagram.b15bc616029fa0ee5c09334bd2d75d12.svg",
     "static/media/logo-facebook.svg": "/loopstudios/static/media/logo-facebook.6555562764c3d103f26762c808f8a357.svg",
-    "main.18f1ca77.js.map": "/loopstudios/static/js/main.18f1ca77.js.map"
+    "main.b00bcee5.js.map": "/loopstudios/static/js/main.b00bcee5.js.map"
   },
   "entrypoints": [
-    "static/js/main.18f1ca77.js"
+    "static/js/main.b00bcee5.js"
   ]
 }
