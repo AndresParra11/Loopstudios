@@ -40,6 +40,7 @@ export const ContainerLinksFooter = styled.div`
   gap: 1rem;
   @media (min-width: 760px) {
     flex-direction: row;
+    gap: 1.5rem;
   }
 `;
 
