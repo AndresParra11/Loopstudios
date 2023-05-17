@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { CardContainer } from "./StylesCard";
 
 const Card = ({ creation }) => {
   const [isOvered, setIsOvered] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   const handleMouseOver = () => {
     setIsOvered(true);
@@ -12,11 +13,25 @@ const Card = ({ creation }) => {
     setIsOvered(false);
   };
 
+  useEffect(() => {
+    const handleWindowResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleWindowResize);
+
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  }, []);
+
+  const imageSrc = windowWidth >= 900 ? creation.image2 : creation.image;
+
   return (
     <CardContainer>
       <figure>
         <img
-          src={creation.image}
+          src={imageSrc}
           alt={creation.title}
           onMouseOver={handleMouseOver}
           onMouseOut={handleMouseOut}

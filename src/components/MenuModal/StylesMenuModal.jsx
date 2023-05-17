@@ -12,6 +12,10 @@ export const StylesMenuModal = styled.div`
   overflow: hidden;
   height: 100vh;
   width: 100%;
+
+  @media (min-width: 680px) {
+    display: none;
+  }
 `;
 
 export const ContainerTitle = styled.div`
@@ -33,4 +37,7 @@ export const ContainerMenus = styled.div`
   flex-direction: column;
   gap: 1rem;
   padding: 0 2rem;
+  @media screen and (min-width: 450px) and (max-width: 680px) {
+    align-items: center;
+  }
 `;

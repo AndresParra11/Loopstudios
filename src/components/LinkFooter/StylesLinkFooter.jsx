@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const StylesLinkFooter = styled.p`
   color: white;
   font-size: 1rem;
+  font-family: "Alata", sans-serif;
   text-align: center;
   position: relative;
   &:hover {

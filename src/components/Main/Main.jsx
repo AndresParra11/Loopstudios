@@ -1,18 +1,22 @@
 import React from "react";
 import { ourCreations } from "../../data/data";
 import Card from "../Card/Card";
-import { MainContainer } from "./StylesMain";
+import { ContainerCards, ContainerMobile, MainContainer } from "./StylesMain";
 import Button from "../Button/Button";
 
 const Main = () => {
   return (
     <MainContainer>
+      <ContainerMobile>
+        <h1>OUR CREATIONS</h1>
+        <Button />
+      </ContainerMobile>
       <h1>OUR CREATIONS</h1>
-      <div>
+      <ContainerCards>
         {ourCreations.map((creation) => (
           <Card key={creation.id} creation={creation} />
         ))}
-      </div>
+      </ContainerCards>
       <Button />
     </MainContainer>
   );

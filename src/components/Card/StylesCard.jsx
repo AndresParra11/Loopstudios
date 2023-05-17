@@ -18,14 +18,25 @@ export const CardContainer = styled.aside`
   h2 {
     width: 100px;
     position: absolute;
-    bottom: 20%;
+    bottom: 7%;
     left: 10%;
     z-index: 100;
     color: lightgray;
     font-size: 1.4rem;
-    font-weight: 100;
+    font-weight: 400;
     &:hover {
       cursor: pointer;
+    }
+  }
+
+  @media (min-width: 900px) {
+    width: 23%;
+    figure {
+      width: 100%;
+      img {
+        width: 100%;
+        margin: 0;
+      }
     }
   }
 `;

@@ -6,7 +6,7 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-size: 15px;
-    font-family: 'Alata', sans-serif;
+    font-family: system-ui;
   }
   body {
     width: 100%;
