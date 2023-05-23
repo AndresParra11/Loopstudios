@@ -9,9 +9,11 @@ export const CardContainer = styled.aside`
       width: 88%;
       object-fit: contain;
       margin: 0 6%;
+      filter: brightness(60%);
       :hover {
         cursor: pointer;
         opacity: 0.5;
+        transform: scale(1.02);
       }
     }
   }
@@ -36,6 +38,7 @@ export const CardContainer = styled.aside`
       img {
         width: 100%;
         margin: 0;
+        filter: brightness(60%);
       }
     }
   }
